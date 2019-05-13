@@ -10,8 +10,8 @@ Le jeux de données était pris de la ressource opendata.swiss sur les sujet "Co
 
  - Comme vous pouvez remarquer, il est possible de télécharger les données seulement dans le format .xls depuis le site web (ce qui a été fait).
 
- 
-  ![fichier '.xls'](https://github.com/Aksumiron/projet-VisDon/blob/master/img/consomVinExel.png) | width=100)
+
+  ![fichier '.xls'](https://github.com/Aksumiron/projet-VisDon/blob/master/img/consomVinExel.png) =250x250)
 
   *Source [data/consomVin-dataOrigin.xlsx](https://github.com/Aksumiron/projet-VisDon/blob/master/data/consomVin-dataOrigin.xlsx)*
 
