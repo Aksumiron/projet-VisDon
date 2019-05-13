@@ -2,9 +2,6 @@ import bb from 'billboard.js';
 import "billboard.js/dist/billboard.css";
 import './src/styles.css';
 import * as formatJson from './src/formatJson.js';
-
-
-
 import json from './src/vinConsom.json'
 
 /*
@@ -19,55 +16,53 @@ console.log(formatJson.consomTot(json, "Total"))
 console.log(formatJson.pourcentLocal(json, "Total"))
 */
 
-
-
 var ConsomChart = bb.generate({
-      data: {
-        columns: [
-          ["Rouge", ...formatJson.swissProduction(json, "Rouge")],
+  data: {
+    columns: [
+      ["Rouge", ...formatJson.swissProduction(json, "Rouge")],
 
-        ],
-        type: "bar",
-        colors: {
-          Rouge: "#690707",
-          Blanc: "#fff59d"
-        },
-      },
-      bar: {
-        width: {
-          ratio: 0.5
-        }
-      },
-      axis: {
-        x: {
-          label: "Année",
-          type: "category",
-          categories: formatJson.years(json)
-        },
-        y: {
-          label: "hl",
-          tick: {
-            format : x => `${x/1000}k`
-          }
-        }
-      },
+    ],
+    type: "bar",
+    colors: {
+      Rouge: "#690707",
+      Blanc: "#fff59d"
+    },
+  },
+  bar: {
+    width: {
+      ratio: 0.5
+    }
+  },
+  axis: {
+    x: {
+      label: "Année",
+      type: "category",
+      categories: formatJson.years(json)
+    },
+    y: {
+      label: "hl",
+      tick: {
+        format: x => `${x/1000}k`
+      }
+    }
+  },
 
-      bindto: "#barChart"
+  bindto: "#barChart"
 });
 
 setTimeout(function() {
-	ConsomChart.load({
-		columns: [
-			["Blanc", ...formatJson.swissProduction(json, "Blanc")]
-		]
-	});
+  ConsomChart.load({
+    columns: [
+      ["Blanc", ...formatJson.swissProduction(json, "Blanc")]
+    ]
+  });
 }, 1000);
 
 /****/
 var ProdVSImportChart = bb.generate({
   data: {
     columns: [
-	["Suisse", ...formatJson.swissProduction(json, "Total")],
+      ["Suisse", ...formatJson.swissProduction(json, "Total")],
     ],
     types: {
       Suisse: "area",
@@ -89,7 +84,7 @@ var ProdVSImportChart = bb.generate({
     y: {
       label: "hl",
       tick: {
-        format : x => `${x/1000}k`
+        format: x => `${x/1000}k`
       }
     }
   },
@@ -97,19 +92,19 @@ var ProdVSImportChart = bb.generate({
 });
 
 setTimeout(function() {
-	ProdVSImportChart.load({
-		columns: [
-			["Import", ...formatJson.vinImport(json, "Total")]
-		]
-	});
+  ProdVSImportChart.load({
+    columns: [
+      ["Import", ...formatJson.vinImport(json, "Total")]
+    ]
+  });
 }, 2000);
 
 setTimeout(function() {
-	ProdVSImportChart.load({
-		columns: [
-			["Export", ...formatJson.vinExport(json, "Total")]
-		]
-	});
+  ProdVSImportChart.load({
+    columns: [
+      ["Export", ...formatJson.vinExport(json, "Total")]
+    ]
+  });
 }, 2800);
 /****/
 
@@ -118,7 +113,7 @@ setTimeout(function() {
 var chart = bb.generate({
   data: {
     columns: [
-	["ConsommationTotale", ...formatJson.consomTot(json, "Total")],
+      ["ConsommationTotale", ...formatJson.consomTot(json, "Total")],
     ],
     type: "spline",
     colors: {
@@ -134,7 +129,7 @@ var chart = bb.generate({
     y: {
       label: "hl",
       tick: {
-        format : x => `${x/1000}k`
+        format: x => `${x/1000}k`
       }
     }
   },
@@ -146,7 +141,7 @@ var chart = bb.generate({
 var chart = bb.generate({
   data: {
     columns: [
-       ["PourcentLocal", formatJson.pourcentLocal(json)]
+      ["PourcentLocal", formatJson.pourcentLocal(json)]
     ],
     type: "gauge",
   },
@@ -166,7 +161,7 @@ var chart = bb.generate({
 var chart = bb.generate({
   data: {
     columns: [
-  ["pourcentLocalBlanc", formatJson.pourcentLocalBlanc(json)]
+      ["pourcentLocalBlanc", formatJson.pourcentLocalBlanc(json)]
     ],
     type: "gauge",
   },
@@ -187,7 +182,7 @@ var chart = bb.generate({
   data: {
     columns: [
 
-	  ["pourcentLocalRouge", formatJson.pourcentLocalRouge(json)]
+      ["pourcentLocalRouge", formatJson.pourcentLocalRouge(json)]
     ],
     type: "gauge",
   },

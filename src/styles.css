@@ -3,63 +3,73 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
 p {
   margin: 2em;
   text-align: justify;
 }
 
-h1{
+h1 {
   font-size: 3em;
 }
-h2{
+
+h2 {
   font-size: 2em;
 }
-h3{
+
+h3 {
   font-size: 1.3em;
 }
 
 section {
   margin: 4em 0;
 }
+
 div {
   margin: 2em 0;
 }
+
 a {
   color: #28285a;
 }
+
 a:hover {
   color: #d4d4d4;
 }
 
 footer {
-  border-top: 2px solid ;
+  border-top: 2px solid;
   border-color: #420101;
-  margin: 0 20% ;
+  margin: 0 20%;
   padding: 2em;
   text-align: center;
 }
 
 .container {
-  width:80%;
+  width: 80%;
   margin: 0 auto;
 }
+
 .title {
   font-family: 'Abril Fatface', sans-serif;
   color: #420101;
   text-align: center;
   margin: 1em;
 }
+
 .inline {
   display: inline-block;
   width: 40%;
   vertical-align: middle;
 }
-.s1{
+
+.s1 {
   margin-top: 0;
 }
-.s1 h1{
-  border-bottom: 2px solid ;
+
+.s1 h1 {
+  border-bottom: 2px solid;
   border-color: #420101;
-  margin: 0 20% ;
+  margin: 0 20%;
   padding: 1em;
 }
