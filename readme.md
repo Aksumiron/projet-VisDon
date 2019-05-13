@@ -147,16 +147,18 @@ Pour la construction des graphiques la librairie [billboard.js](https://naver.gi
 
 ## Le choix du type de représentation
 
-- Bar Chart pour la production indigène pour pouvoir comparer la production de vin blanc vs. la production de vin rouge.
-- Area Chart pour démontrer la quantité de vin produit en Suisse vis-versa le vin importé ou exporté.
-- Line Chart pour visualiser la tendance de consommation sur les derniers 20 ans
-- Gauge Chart pour démontrer les pourcentages qui concernent les taux de consommation différents
+- **Bar Chart** pour la production indigène pour pouvoir comparer la production de vin blanc vs. la production de vin rouge.
+- **Area Chart** pour démontrer la quantité de vin produit en Suisse vis-versa le vin importé ou exporté.
+- **Line Chart** pour visualiser la tendance de consommation sur les derniers 20 ans
+- **Gauge Chart** pour démontrer les pourcentages qui concernent les taux de consommation différents
 
 ## Le but de la visualisation
 
 La visualisation était réalisée dans le but uniquement informatif dans le cadre du cours DataVis.  
-Attirer attention sur le sujet de la consommation de vin.
-Examiner les tendances de la consommation pendant les dernières 20 années.
+
+La principale idée était d'attirer attention des spectateurs sur le sujet de la consommation de vin.
+
+Les tendances de consommation sur 20 ans consécutifs de vin ont été retirées des données.
 
 
 ##  Le publique cible
