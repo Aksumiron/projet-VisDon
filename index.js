@@ -45,7 +45,10 @@ var ConsomChart = bb.generate({
           categories: formatJson.years(json)
         },
         y: {
-          label: "hl"
+          label: "hl",
+          tick: {
+            format : x => `${x/1000}k`
+          }
         }
       },
 
@@ -84,7 +87,10 @@ var ProdVSImportChart = bb.generate({
       categories: formatJson.years(json)
     },
     y: {
-      label: "hl"
+      label: "hl",
+      tick: {
+        format : x => `${x/1000}k`
+      }
     }
   },
   bindto: "#areaChart"
@@ -126,7 +132,10 @@ var chart = bb.generate({
       categories: formatJson.years(json)
     },
     y: {
-      label: "hl"
+      label: "hl",
+      tick: {
+        format : x => `${x/1000}k`
+      }
     }
   },
   bindto: "#splineChart"
