@@ -29,24 +29,13 @@ Le jeux de données était pris de la ressource opendata.swiss sur les sujet "Co
 
 
    | "Years": "1996/1997", | -> L'année de production|
-   |--|--|
    |  "Type": "Rouge",     |  -> Type de vin (Rouge / Blanc / Total(répresent la somme de deux))|
-   |--|--|
    |   "ProdInd": 577687,     |  -> Production indigène|
-   |--|--|
    |    "Import": 1423325,     |   -> Importation de vin de table|
-   |--|--|
    |    "Export": 7612,    |   -> Exportation|
-   |--|--|
    |    "ConsomTot": 1992388,      |  -> La quantité de vin consommée par type Rouge / Blanc / les deux (Total) d'origine Suisse et importé|
-   |--|--|
    |    "ConsomLocal": 493468,      |  -> La quantité de vin consommée par type Rouge / Blanc / les deux (Total) seulement d'origine Suisse|
-   |--|--|
    |    "PourcentLocal": "24,8"      |  -> Le pourcentage qui répresent la quantité de vin d'origine Suisse consommée par type Rouge / Blanc / les deux (Total)|
-
-
-
-
 
 
 
@@ -61,8 +50,8 @@ Le jeux de données était pris de la ressource opendata.swiss sur les sujet "Co
 
   - Production indigène • Import • Export
 
-    La compairaison des totaux du vin produits en Suisse avec les totaux du vin importé exporté.
-    
+    La comparaison des totaux du vin produite en Suisse avec les totaux du vin importé exporté.
+
   - Consommation
 
     20 ans sur une ligne
