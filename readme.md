@@ -10,12 +10,14 @@ Le jeux de données était pris de la ressource opendata.swiss sur les sujet "Co
 
 Comme vous pouvez remarquer, il est possible de télécharger les données seulement dans le format .xls depuis le site web (ce qui a été fait).
 
-  ![fichier '.xls'](https://github.com/Aksumiron/projet-VisDon/blob/master/img/consomVinExel.png))
+  ![fichier '.xls'](https://github.com/Aksumiron/projet-VisDon/blob/master/img/consomVinExel.png)
+
   *Source [data/consomVin-dataOrigin.xlsx](https://github.com/Aksumiron/projet-VisDon/blob/master/data/consomVin-dataOrigin.xlsx)*
 
 En deuxième temps il a fallu de transformer le fichier en format "Comma-separated values" .csv, pour ensuite pouvoir les transformer dans un json adapté.
 
    ![Le fichier modifié et converti en .csv](https://github.com/Aksumiron/projet-VisDon/blob/master/img/consomVinCsv.png)
+
    *Source [data/vin.csv](https://github.com/Aksumiron/projet-VisDon/blob/master/data/vin.csv)*
 
    ```javascript
@@ -61,8 +63,8 @@ En deuxième temps il a fallu de transformer le fichier en format "Comma-separat
     La quantité de vin (par type : Rouge ou Blanc) produite par année depuis 1997 et jusqu'au 2017 en hectolitres (1 hl = 100 l).
 
     > Les données prises :
-        PordInt Rourge
-        ProdInt Blanc
+        PordInt Rourge ;
+        ProdInt Blanc ;
         Axes : X - Years, Y - hl
 
   - Production indigène • Import • Export
@@ -70,9 +72,9 @@ En deuxième temps il a fallu de transformer le fichier en format "Comma-separat
     La comparaison des totaux du vin produite en Suisse avec les totaux du vin importé exporté.
 
     > Les données prises :
-        ProdInt Total
-        Import Total
-        Export Total
+        ProdInt Total ;
+        Import Total ;
+        Export Total ;
         Axes : X - Years, Y - hl
 
   - Consommation
@@ -80,7 +82,7 @@ En deuxième temps il a fallu de transformer le fichier en format "Comma-separat
     **20 ans sur une ligne** : Le graphique montre la consommation de vin total par année.
 
     > Les données prises :
-        ConsomTot Total
+        ConsomTot Total ;
         Axes : X - Years, Y - hl
 
     **Pourcentage de vin d'origine Suisse consommé en Suisse** : Le graphique montre combien de vin produit un Suisse est consommé en Suisse
