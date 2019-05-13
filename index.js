@@ -15,7 +15,6 @@ console.log(formatJson.swissProduction(json, "Blanc"))
 console.log(formatJson.years(json))
 console.log(formatJson.vinImport(json, "Total"))
 console.log(formatJson.vinExport(json, "Total"))
-
 console.log(formatJson.consomTot(json, "Total"))
 console.log(formatJson.pourcentLocal(json, "Total"))
 */

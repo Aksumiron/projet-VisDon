@@ -61,24 +61,88 @@ Le jeux de données était pris de la ressource opendata.swiss sur les sujet "Co
 
     La quantité de vin (par type : Rouge ou Blanc) produite par année depuis 1997 et jusqu'au 2017 en hectolitres (1 hl = 100 l).
 
+    > Les données prises :
+        PordInt Rourge
+        ProdInt Blanc
+        Axes : X - Years, Y - hl
+
   - Production indigène • Import • Export
 
     La comparaison des totaux du vin produite en Suisse avec les totaux du vin importé exporté.
+
+    > Les données prises :
+        ProdInt Total
+        Import Total
+        Export Total
+        Axes : X - Years, Y - hl
 
   - Consommation
 
     **20 ans sur une ligne** : Le graphique montre la consommation de vin total par année.
 
+    > Les données prises :
+        ConsomTot Total
+        Axes : X - Years, Y - hl
+
     **Pourcentage de vin d'origine Suisse consommé en Suisse** : Le graphique montre combien de vin produit un Suisse est consommé en Suisse
+
+    > Les données prises :
+        PourcentLocal Total
+
+    Pour calculer le moyenne de tous les pourcentages annuels la fonction suivante était utilisée :
+
+    ```javascript
+    export function pourcentLocal(json) {
+        const pourcentLocal = filterValues(json, "Total")
+           .map((x) => {
+              return parseInt(x.PourcentLocal, 10)
+           })
+        const pourcentageTot = pourcentLocal.reduce((x1, x2) => x1 + x2) / pourcentLocal.length
+        return pourcentageTot
+      }
+    ```
 
     **Vin blanc d'origine Suisse consommé par rapport à tout le vin produit en Suisse** : Le graphique montre combien de vin blanc d'origine Suisse est consommé en Suisse
 
+    > Les données prises :
+        PourcentLocal Blanc
+
+    Pour calculer le moyenne de tous les pourcentages annuels la fonction suivante était utilisée :
+
+    ```javascript
+    export function pourcentLocalBlanc(json) {
+      const pourcentLocalBlanc = filterValues(json, "Blanc")
+         .map((x) => {
+            return parseInt(x.PourcentLocal, 10)
+         })
+      const pourcentageBlanc = pourcentLocalBlanc.reduce((x1, x2) => x1 + x2) / pourcentLocalBlanc.length
+      return pourcentageBlanc
+    }
+    ```
+
     **Vin rouge d'origine Suisse consommé par rapport à tout le vin produit en Suisse** : Le graphique montre combien de vin rouge d'origine Suisse est consommé en Suisse
+
+    > Les données prises :
+        PourcentLocal Rouge
+
+    Pour calculer le moyenne de tous les pourcentages annuels la fonction suivante était utilisée :
+
+    ```javascript
+    export function pourcentLocalRouge(json) {
+      const pourcentLocalRouge = filterValues(json, "Rouge")
+         .map((x) => {
+            return parseInt(x.PourcentLocal, 10)
+         })
+      const pourcentageRouge = pourcentLocalRouge.reduce((x1, x2) => x1 + x2) / pourcentLocalRouge.length
+      return pourcentageRouge
+    }
+    ```
 
 ## Visualisation de données choisies
 
 Pour la construction des graphiques la librairie [billboard.js](https://naver.github.io/billboard.js/) a été choisie et
 [Webpack](https://webpack.js.org/) pour afficher tout le contenu sur une page web.
+
 
 
 ## Le choix du type de représentation
