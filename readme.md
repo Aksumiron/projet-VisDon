@@ -16,9 +16,10 @@ Le jeux de données était pris de la ressource opendata.swiss sur les sujet "Co
 
  - En deuxième temps il a fallu de transformer le fichier en format "Comma-separated values" .csv, pour ensuite pouvoir les transformer dans un json adapté.
 
-   ![Le fichier modifié et converti en .csv](https://github.com/Aksumiron/projet-VisDon/blob/master/img/consomVinCsv.png =100x20)
+   ![Le fichier modifié et converti en .csv](https://github.com/Aksumiron/projet-VisDon/blob/master/img/consomVinCsv.png)
    *Source data/vin.csv*
 
+   ```javascript
    {
      "Years": "1996/1997",
      "Type": "Rouge",
@@ -29,23 +30,25 @@ Le jeux de données était pris de la ressource opendata.swiss sur les sujet "Co
      "ConsomLocal": 493468,
      "PourcentLocal": "24,8"
    }
+   ```
    *Source src/vinConsom.json*
+
    *Dans le but d'éviter les éventuelles erreurs au niveau de la conversation le fichier .csv a été transformé avec un générateur [CSVJSON](https://www.csvjson.com/csv2json)*
 
 
    Les données de base étaient simplifiées et re-structures dans le but d'avoir une meilleure implémentation.
    Seules les données nécessaires pour la visualisation ont été gardées :
 
-   |Ligne dans le Json| Les données|
+   |JSON| Les données|
    |--|--|
-   | "Years": "1996/1997", | -> L'année de production|
-   |  "Type": "Rouge",     |  -> Type de vin (Rouge / Blanc / Total(répresent la somme de deux))|
-   |   "ProdInd": 577687,     |  -> Production indigène|
-   |    "Import": 1423325,     |   -> Importation de vin de table|
-   |    "Export": 7612,    |   -> Exportation|
-   |    "ConsomTot": 1992388,      |  -> La quantité de vin consommée par type Rouge / Blanc / les deux (Total) d'origine Suisse et importé|
-   |    "ConsomLocal": 493468,      |  -> La quantité de vin consommée par type Rouge / Blanc / les deux (Total) seulement d'origine Suisse|
-   |    "PourcentLocal": "24,8"      |  -> Le pourcentage qui répresent la quantité de vin d'origine Suisse consommée par type Rouge / Blanc / les deux (Total)|
+   | Years| -> L'année de production|
+   |  Type|  -> Type de vin (Rouge / Blanc / Total(répresent la somme de deux))|
+   |  ProdInd|  -> Production indigène|
+   |  Import|   -> Importation de vin de table|
+   |  Export|   -> Exportation|
+   |  ConsomTot|  -> La quantité de vin consommée par type Rouge / Blanc / les deux (Total) d'origine Suisse et importé|
+   |  ConsomLocal|  -> La quantité de vin consommée par type Rouge / Blanc / les deux (Total) seulement d'origine Suisse|
+   |  PourcentLocal|  -> Le pourcentage qui répresent la quantité de vin d'origine Suisse consommée par type Rouge / Blanc / les deux (Total)|
 
 
 
