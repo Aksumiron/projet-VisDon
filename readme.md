@@ -11,13 +11,13 @@ Le jeux de données était pris de la ressource opendata.swiss sur les sujet "Co
  - Comme vous pouvez remarquer, il est possible de télécharger les données seulement dans le format .xls depuis le site web (ce qui a été fait).
 
   ![fichier '.xls'](https://github.com/Aksumiron/projet-VisDon/blob/master/img/consomVinExel.png)
-  *Source data/consomVin-dataOrigin.xlsx*
+  *Source (data/consomVin-dataOrigin.xlsx)*
 
 
  - En deuxième temps il a fallu de transformer le fichier en format "Comma-separated values" .csv, pour ensuite pouvoir les transformer dans un json adapté.
 
    ![Le fichier modifié et converti en .csv](https://github.com/Aksumiron/projet-VisDon/blob/master/img/consomVinCsv.png)
-   *Source data/vin.csv*
+   *Source (data/vin.csv)*
 
    ```javascript
    {
@@ -31,7 +31,7 @@ Le jeux de données était pris de la ressource opendata.swiss sur les sujet "Co
      "PourcentLocal": "24,8"
    }
    ```
-   *Source src/vinConsom.json*
+   *Source (src/vinConsom.json)*
 
    *Dans le but d'éviter les éventuelles erreurs au niveau de la conversation le fichier .csv a été transformé avec un générateur [CSVJSON](https://www.csvjson.com/csv2json)*
 
@@ -75,8 +75,8 @@ Le jeux de données était pris de la ressource opendata.swiss sur les sujet "Co
 
 ## Visualisation de données choisies
 
-billboard.js
-webpack pour afficher tout sur une page web
+Pour la construction des graphiques la librairie [billboard.js](https://naver.github.io/billboard.js/) a été choisie et
+[Webpack](https://webpack.js.org/) pour afficher tout le contenu sur une page web.
 
 
 ## Le choix du type de représentation
