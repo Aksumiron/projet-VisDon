@@ -8,15 +8,12 @@ Le travail effectué a consisté à analyser les derniers de 20 ans (de 1997 à 
 Le jeux de données était pris de la ressource opendata.swiss sur les sujet "Consummation de vin".
  [lien](https://opendata.swiss/fr/dataset/weinverbrauch1)
 
- - Comme vous pouvez remarquer, il est possible de télécharger les données seulement dans le format .xls depuis le site web (ce qui a été fait).
+Comme vous pouvez remarquer, il est possible de télécharger les données seulement dans le format .xls depuis le site web (ce qui a été fait).
 
-
-  ![fichier '.xls'](https://github.com/Aksumiron/projet-VisDon/blob/master/img/consomVinExel.png) =250x250)
-
+  ![fichier '.xls'](https://github.com/Aksumiron/projet-VisDon/blob/master/img/consomVinExel.png))
   *Source [data/consomVin-dataOrigin.xlsx](https://github.com/Aksumiron/projet-VisDon/blob/master/data/consomVin-dataOrigin.xlsx)*
 
-
- - En deuxième temps il a fallu de transformer le fichier en format "Comma-separated values" .csv, pour ensuite pouvoir les transformer dans un json adapté.
+En deuxième temps il a fallu de transformer le fichier en format "Comma-separated values" .csv, pour ensuite pouvoir les transformer dans un json adapté.
 
    ![Le fichier modifié et converti en .csv](https://github.com/Aksumiron/projet-VisDon/blob/master/img/consomVinCsv.png)
    *Source [data/vin.csv](https://github.com/Aksumiron/projet-VisDon/blob/master/data/vin.csv)*
