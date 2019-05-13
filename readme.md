@@ -56,9 +56,13 @@ Le jeux de données était pris de la ressource opendata.swiss sur les sujet "Co
 
 
   - Production indigène
+
     La quantité de vin (par type : Rouge ou Blanc) produite par année depuis 1997 et jusqu'au 2017 en hectolitres (1 hl = 100 l).
+
   - Production indigène • Import • Export
+
     La compairaison des totaux du vin produits en Suisse avec les totaux du vin importé exporté.
+    
   - Consommation
 
     20 ans sur une ligne
