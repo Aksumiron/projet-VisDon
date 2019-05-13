@@ -1,0 +1,632 @@
+[
+  {
+    "Years": "1996/1997",
+    "Type": "Rouge",
+    "ProdInd": 577687,
+    "Import": 1423325,
+    "Export": 7612,
+    "ConsomTot": 1992388,
+    "ConsomLocal": 493468,
+    "PourcentLocal": "24,8"
+  },
+  {
+    "Years": "1996/1997",
+    "Type": "Blanc",
+    "ProdInd": 647085,
+    "Import": 167819,
+    "Export": 5925,
+    "ConsomTot": 859908,
+    "ConsomLocal": 621247,
+    "PourcentLocal": "72,2"
+  },
+  {
+    "Years": "1996/1997",
+    "Type": "Total",
+    "ProdInd": 1224772,
+    "Import": 1591144,
+    "Export": 13537,
+    "ConsomTot": 2852296,
+    "ConsomLocal": 1114715,
+    "PourcentLocal": "39,1"
+  },
+  {
+    "Years": "1997/1998",
+    "Type": "Rouge",
+    "ProdInd": 458846,
+    "Import": 1492004,
+    "Export": 8803,
+    "ConsomTot": 1996625,
+    "ConsomLocal": 493891,
+    "PourcentLocal": "24,7"
+  },
+  {
+    "Years": "1997/1998",
+    "Type": "Blanc",
+    "ProdInd": 523289,
+    "Import": 236558,
+    "Export": 5398,
+    "ConsomTot": 855063,
+    "ConsomLocal": 604479,
+    "PourcentLocal": "70,7"
+  },
+  {
+    "Years": "1997/1998",
+    "Type": "Total",
+    "ProdInd": 982135,
+    "Import": 1728562,
+    "Export": 14201,
+    "ConsomTot": 2851688,
+    "ConsomLocal": 1098370,
+    "PourcentLocal": "38,5"
+  },
+  {
+    "Years": "1998/1999",
+    "Type": "Rouge",
+    "ProdInd": 514606,
+    "Import": 1457033,
+    "Export": 7989,
+    "ConsomTot": 2003725,
+    "ConsomLocal": 534177,
+    "PourcentLocal": "26,7"
+  },
+  {
+    "Years": "1998/1999",
+    "Type": "Blanc",
+    "ProdInd": 586990,
+    "Import": 220536,
+    "Export": 4870,
+    "ConsomTot": 872387,
+    "ConsomLocal": 606574,
+    "PourcentLocal": "69,5"
+  },
+  {
+    "Years": "1998/1999",
+    "Type": "Total",
+    "ProdInd": 1101596,
+    "Import": 1677569,
+    "Export": 12859,
+    "ConsomTot": 2876112,
+    "ConsomLocal": 1140751,
+    "PourcentLocal": "39,7"
+  },
+  {
+    "Years": "1999/2000",
+    "Type": "Rouge",
+    "ProdInd": 555801,
+    "Import": 1451309,
+    "Export": 8335,
+    "ConsomTot": 2022332,
+    "ConsomLocal": 549049,
+    "PourcentLocal": "27,1"
+  },
+  {
+    "Years": "1999/2000",
+    "Type": "Blanc",
+    "ProdInd": 674933,
+    "Import": 228821,
+    "Export": 5268,
+    "ConsomTot": 855428,
+    "ConsomLocal": 606480,
+    "PourcentLocal": "70,9"
+  },
+  {
+    "Years": "1999/2000",
+    "Type": "Total",
+    "ProdInd": 1230734,
+    "Import": 1680130,
+    "Export": 13603,
+    "ConsomTot": 2877760,
+    "ConsomLocal": 1155529,
+    "PourcentLocal": "40,2"
+  },
+  {
+    "Years": "2000/2001",
+    "Type": "Rouge",
+    "ProdInd": 569445,
+    "Import": 1436910,
+    "Export": 6910,
+    "ConsomTot": 2015132,
+    "ConsomLocal": 547344,
+    "PourcentLocal": "27,2"
+  },
+  {
+    "Years": "2000/2001",
+    "Type": "Blanc",
+    "ProdInd": 629272,
+    "Import": 251011,
+    "Export": 5636,
+    "ConsomTot": 848253,
+    "ConsomLocal": 578192,
+    "PourcentLocal": "68,2"
+  },
+  {
+    "Years": "2000/2001",
+    "Type": "Total",
+    "ProdInd": 1198717,
+    "Import": 1687921,
+    "Export": 12546,
+    "ConsomTot": 2863385,
+    "ConsomLocal": 1125536,
+    "PourcentLocal": "39,3"
+  },
+  {
+    "Years": "2001/2002",
+    "Type": "Rouge",
+    "ProdInd": 535610,
+    "Import": 1382210,
+    "Export": 7712,
+    "ConsomTot": 1960472,
+    "ConsomLocal": 554487,
+    "PourcentLocal": "28,3"
+  },
+  {
+    "Years": "2001/2002",
+    "Type": "Blanc",
+    "ProdInd": 567198,
+    "Import": 291135,
+    "Export": 5768,
+    "ConsomTot": 852012,
+    "ConsomLocal": 583733,
+    "PourcentLocal": "68,5"
+  },
+  {
+    "Years": "2001/2002",
+    "Type": "Total",
+    "ProdInd": 1102808,
+    "Import": 1673345,
+    "Export": 13480,
+    "ConsomTot": 2812484,
+    "ConsomLocal": 1138220,
+    "PourcentLocal": "40,5"
+  },
+  {
+    "Years": "2002/2003",
+    "Type": "Rouge",
+    "ProdInd": 513434,
+    "Import": 1430394,
+    "Export": 6623,
+    "ConsomTot": 1959019,
+    "ConsomLocal": 537456,
+    "PourcentLocal": "27,4"
+  },
+  {
+    "Years": "2002/2003",
+    "Type": "Blanc",
+    "ProdInd": 498572,
+    "Import": 236368,
+    "Export": 5051,
+    "ConsomTot": 822289,
+    "ConsomLocal": 535528,
+    "PourcentLocal": "65,1"
+  },
+  {
+    "Years": "2002/2003",
+    "Type": "Total",
+    "ProdInd": 1012006,
+    "Import": 1666762,
+    "Export": 11674,
+    "ConsomTot": 2781308,
+    "ConsomLocal": 1072984,
+    "PourcentLocal": "38,6"
+  },
+  {
+    "Years": 2004,
+    "Type": "Rouge",
+    "ProdInd": 570391,
+    "Import": 1365981,
+    "Export": 9913,
+    "ConsomTot": 1854894,
+    "ConsomLocal": 472153,
+    "PourcentLocal": "25,5"
+  },
+  {
+    "Years": 2004,
+    "Type": "Blanc",
+    "ProdInd": 518584,
+    "Import": 261852,
+    "Export": 8540,
+    "ConsomTot": 771498,
+    "ConsomLocal": 490386,
+    "PourcentLocal": "63,6"
+  },
+  {
+    "Years": 2004,
+    "Type": "Total",
+    "ProdInd": 1088975,
+    "Import": 1627833,
+    "Export": 18453,
+    "ConsomTot": 2626392,
+    "ConsomLocal": 962539,
+    "PourcentLocal": "36,6"
+  },
+  {
+    "Years": 2005,
+    "Type": "Rouge",
+    "ProdInd": 490947,
+    "Import": 1353078,
+    "Export": 11771,
+    "ConsomTot": 1881383,
+    "ConsomLocal": 478802,
+    "PourcentLocal": "25,4"
+  },
+  {
+    "Years": 2005,
+    "Type": "Blanc",
+    "ProdInd": 449958,
+    "Import": 275858,
+    "Export": 11651,
+    "ConsomTot": 803784,
+    "ConsomLocal": 499559,
+    "PourcentLocal": "62,2"
+  },
+  {
+    "Years": 2005,
+    "Type": "Total",
+    "ProdInd": 940905,
+    "Import": 1628936,
+    "Export": 23422,
+    "ConsomTot": 2685167,
+    "ConsomLocal": 978361,
+    "PourcentLocal": "36,4"
+  },
+  {
+    "Years": 2006,
+    "Type": "Rouge",
+    "ProdInd": 507265,
+    "Import": 1289981,
+    "Export": 15125,
+    "ConsomTot": 1831549,
+    "ConsomLocal": 464683,
+    "PourcentLocal": "25,4"
+  },
+  {
+    "Years": 2006,
+    "Type": "Blanc",
+    "ProdInd": 442746,
+    "Import": 281167,
+    "Export": 11129,
+    "ConsomTot": 783319,
+    "ConsomLocal": 469886,
+    "PourcentLocal": "60,0"
+  },
+  {
+    "Years": 2006,
+    "Type": "Total",
+    "ProdInd": 950011,
+    "Import": 1571148,
+    "Export": 26254,
+    "ConsomTot": 2614868,
+    "ConsomLocal": 934569,
+    "PourcentLocal": "35,7"
+  },
+  {
+    "Years": 2007,
+    "Type": "Rouge",
+    "ProdInd": 496303,
+    "Import": 1350598,
+    "Export": 12748,
+    "ConsomTot": 1902610,
+    "ConsomLocal": 520781,
+    "PourcentLocal": "27,4"
+  },
+  {
+    "Years": 2007,
+    "Type": "Blanc",
+    "ProdInd": 481213,
+    "Import": 327862,
+    "Export": 5844,
+    "ConsomTot": 814517,
+    "ConsomLocal": 477478,
+    "PourcentLocal": "58,6"
+  },
+  {
+    "Years": 2007,
+    "Type": "Total",
+    "ProdInd": 977516,
+    "Import": 1676460,
+    "Export": 18592,
+    "ConsomTot": 2717127,
+    "ConsomLocal": 998259,
+    "PourcentLocal": "36,7"
+  },
+  {
+    "Years": 2008,
+    "Type": "Rouge",
+    "ProdInd": 535844,
+    "Import": 1312559,
+    "Export": 13369,
+    "ConsomTot": 1878550,
+    "ConsomLocal": 522079,
+    "PourcentLocal": "27,8"
+  },
+  {
+    "Years": 2008,
+    "Type": "Blanc",
+    "ProdInd": 472109,
+    "Import": 337224,
+    "Export": 5391,
+    "ConsomTot": 821537,
+    "ConsomLocal": 474341,
+    "PourcentLocal": "57,7"
+  },
+  {
+    "Years": 2008,
+    "Type": "Total",
+    "ProdInd": 1007953,
+    "Import": 1649783,
+    "Export": 18760,
+    "ConsomTot": 2700087,
+    "ConsomLocal": 996420,
+    "PourcentLocal": "36,9"
+  },
+  {
+    "Years": 2009,
+    "Type": "Rouge",
+    "ProdInd": 550461,
+    "Import": 1364003,
+    "Export": 13247,
+    "ConsomTot": 1870535,
+    "ConsomLocal": 491639,
+    "PourcentLocal": "26,3"
+  },
+  {
+    "Years": 2009,
+    "Type": "Blanc",
+    "ProdInd": 494338,
+    "Import": 333037,
+    "Export": 5422,
+    "ConsomTot": 800883,
+    "ConsomLocal": 453491,
+    "PourcentLocal": "56,6"
+  },
+  {
+    "Years": 2009,
+    "Type": "Total",
+    "ProdInd": 1044799,
+    "Import": 1697040,
+    "Export": 18669,
+    "ConsomTot": 2671418,
+    "ConsomLocal": 945130,
+    "PourcentLocal": "35,4"
+  },
+  {
+    "Years": 2010,
+    "Type": "Rouge",
+    "ProdInd": 501346,
+    "Import": 1372426,
+    "Export": 14231,
+    "ConsomTot": 1882594,
+    "ConsomLocal": 516551,
+    "PourcentLocal": "27,4"
+  },
+  {
+    "Years": 2010,
+    "Type": "Blanc",
+    "ProdInd": 467169,
+    "Import": 343258,
+    "Export": 5998,
+    "ConsomTot": 838697,
+    "ConsomLocal": 464363,
+    "PourcentLocal": "55,4"
+  },
+  {
+    "Years": 2010,
+    "Type": "Total",
+    "ProdInd": 968515,
+    "Import": 1715684,
+    "Export": 20229,
+    "ConsomTot": 2721291,
+    "ConsomLocal": 980914,
+    "PourcentLocal": 36
+  },
+  {
+    "Years": 2011,
+    "Type": "Rouge",
+    "ProdInd": 547965,
+    "Import": 1320936,
+    "Export": 14735,
+    "ConsomTot": 1822586,
+    "ConsomLocal": 479652,
+    "PourcentLocal": "26,3"
+  },
+  {
+    "Years": 2011,
+    "Type": "Blanc",
+    "ProdInd": 504044,
+    "Import": 357684,
+    "Export": 5598,
+    "ConsomTot": 820540,
+    "ConsomLocal": 437756,
+    "PourcentLocal": "53,3"
+  },
+  {
+    "Years": 2011,
+    "Type": "Total",
+    "ProdInd": 1052009,
+    "Import": 1678620,
+    "Export": 20333,
+    "ConsomTot": 2643126,
+    "ConsomLocal": 917408,
+    "PourcentLocal": "34,7"
+  },
+  {
+    "Years": 2012,
+    "Type": "Rouge",
+    "ProdInd": 474708,
+    "Import": 1316845,
+    "Export": 10567,
+    "ConsomTot": 1795622,
+    "ConsomLocal": 465583,
+    "PourcentLocal": "25,9"
+  },
+  {
+    "Years": 2012,
+    "Type": "Blanc",
+    "ProdInd": 468680,
+    "Import": 362539,
+    "Export": 5668,
+    "ConsomTot": 798433,
+    "ConsomLocal": 428041,
+    "PourcentLocal": "53,6"
+  },
+  {
+    "Years": 2012,
+    "Type": "Total",
+    "ProdInd": 943388,
+    "Import": 1679384,
+    "Export": 16235,
+    "ConsomTot": 2594055,
+    "ConsomLocal": 893624,
+    "PourcentLocal": "34,4"
+  },
+  {
+    "Years": 2013,
+    "Type": "Rouge",
+    "ProdInd": 414450,
+    "Import": 1279125,
+    "Export": 10727,
+    "ConsomTot": 1791875,
+    "ConsomLocal": 498651,
+    "PourcentLocal": "27,8"
+  },
+  {
+    "Years": 2013,
+    "Type": "Blanc",
+    "ProdInd": 373862,
+    "Import": 348187,
+    "Export": 6357,
+    "ConsomTot": 865884,
+    "ConsomLocal": 502508,
+    "PourcentLocal": "58,0"
+  },
+  {
+    "Years": 2013,
+    "Type": "Total",
+    "ProdInd": 788311,
+    "Import": 1627312,
+    "Export": 17084,
+    "ConsomTot": 2657758,
+    "ConsomLocal": 1001158,
+    "PourcentLocal": "37,7"
+  },
+  {
+    "Years": 2014,
+    "Type": "Rouge",
+    "ProdInd": 460338,
+    "Import": 1273625,
+    "Export": 8289,
+    "ConsomTot": 1745386,
+    "ConsomLocal": 451027,
+    "PourcentLocal": "25,8"
+  },
+  {
+    "Years": 2014,
+    "Type": "Blanc",
+    "ProdInd": 417292,
+    "Import": 369857,
+    "Export": 6189,
+    "ConsomTot": 848078,
+    "ConsomLocal": 459560,
+    "PourcentLocal": "54,2"
+  },
+  {
+    "Years": 2014,
+    "Type": "Total",
+    "ProdInd": 877630,
+    "Import": 1643483,
+    "Export": 14478,
+    "ConsomTot": 2593464,
+    "ConsomLocal": 910587,
+    "PourcentLocal": "35,1"
+  },
+  {
+    "Years": 2015,
+    "Type": "Rouge",
+    "ProdInd": 427176,
+    "Import": 1258194,
+    "Export": 6913,
+    "ConsomTot": 1720553,
+    "ConsomLocal": 463392,
+    "PourcentLocal": "26,9"
+  },
+  {
+    "Years": 2015,
+    "Type": "Blanc",
+    "ProdInd": 372246,
+    "Import": 384452,
+    "Export": 5095,
+    "ConsomTot": 850278,
+    "ConsomLocal": 460152,
+    "PourcentLocal": "54,1"
+  },
+  {
+    "Years": 2015,
+    "Type": "Total",
+    "ProdInd": 799422,
+    "Import": 1642646,
+    "Export": 12008,
+    "ConsomTot": 2570831,
+    "ConsomLocal": 923544,
+    "PourcentLocal": "35,9"
+  },
+  {
+    "Years": 2016,
+    "Type": "Rouge",
+    "ProdInd": 517305,
+    "Import": 1228235,
+    "Export": 7077,
+    "ConsomTot": 1672332,
+    "ConsomLocal": 425893,
+    "PourcentLocal": "25,5"
+  },
+  {
+    "Years": 2016,
+    "Type": "Blanc",
+    "ProdInd": 494830,
+    "Import": 380726,
+    "Export": 3916,
+    "ConsomTot": 786940,
+    "ConsomLocal": 389254,
+    "PourcentLocal": "49,5"
+  },
+  {
+    "Years": 2016,
+    "Type": "Total",
+    "ProdInd": 1012135,
+    "Import": 1608961,
+    "Export": 10993,
+    "ConsomTot": 2459272,
+    "ConsomLocal": 815147,
+    "PourcentLocal": "33,1"
+  },
+  {
+    "Years": 2017,
+    "Type": "Rouge",
+    "ProdInd": 366337,
+    "Import": 1234431,
+    "Export": 8187,
+    "ConsomTot": 1635096,
+    "ConsomLocal": 408689,
+    "PourcentLocal": "25,0"
+  },
+  {
+    "Years": 2017,
+    "Type": "Blanc",
+    "ProdInd": 377946,
+    "Import": 395771,
+    "Export": 4571,
+    "ConsomTot": 798396,
+    "ConsomLocal": 399448,
+    "PourcentLocal": "50,0"
+  },
+  {
+    "Years": 2017,
+    "Type": "Total",
+    "ProdInd": 744283,
+    "Import": 1630202,
+    "Export": 12758,
+    "ConsomTot": 2433492,
+    "ConsomLocal": 808137,
+    "PourcentLocal": "33,2"
+  }
+]
