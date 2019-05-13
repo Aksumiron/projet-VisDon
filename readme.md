@@ -9,12 +9,14 @@ Le jeux de données était pris de la ressource opendata.swiss sur les sujet "Co
  [lien](https://opendata.swiss/fr/dataset/weinverbrauch1)
 
  - Comme vous pouvez remarquer, il est possible de télécharger les données seulement dans le format .xls depuis le site web (ce qui a été fait).
+
   ![fichier '.xls'](https://github.com/Aksumiron/projet-VisDon/blob/master/img/consomVinExel.png)
   *Source data/consomVin-dataOrigin.xlsx*
 
 
  - En deuxième temps il a fallu de transformer le fichier en format "Comma-separated values" .csv, pour ensuite pouvoir les transformer dans un json adapté.
-   ![Le fichier modifié et converti en .csv](https://github.com/Aksumiron/projet-VisDon/blob/master/img/consomVinExel.png)
+
+   ![Le fichier modifié et converti en .csv](https://github.com/Aksumiron/projet-VisDon/blob/master/img/consomVinCsv.png)
    *Source data/vin.csv*
 
    ![Le fichier '.json' après la conversion](https://github.com/Aksumiron/projet-VisDon/blob/master/img/exJson.png)
@@ -25,14 +27,28 @@ Le jeux de données était pris de la ressource opendata.swiss sur les sujet "Co
    Les données de base étaient simplifiées et re-structures dans le but d'avoir une meilleure implémentation.
    Seules les données nécessaires pour la visualisation ont été gardées :
 
-   "Years": "1996/1997",        -> L'année de production
-   "Type": "Rouge",             -> Type de vin (Rouge / Blanc / Total(répresent la somme de deux))
-   "ProdInd": 577687,           -> Production indigène
-   "Import": 1423325,           -> Importation de vin de table
-   "Export": 7612,              -> Exportation
-   "ConsomTot": 1992388,        -> La quantité de vin consommée par type Rouge / Blanc / les deux (Total) d'origine Suisse et importé
-   "ConsomLocal": 493468,       -> La quantité de vin consommée par type Rouge / Blanc / les deux (Total) seulement d'origine Suisse
-   "PourcentLocal": "24,8"      -> Le pourcentage qui répresent la quantité de vin d'origine Suisse consommée par type Rouge / Blanc / les deux (Total)
+
+   | "Years": "1996/1997", | -> L'année de production|
+   |--|--|
+   |  "Type": "Rouge",     |  -> Type de vin (Rouge / Blanc / Total(répresent la somme de deux))|
+   |--|--|
+   |   "ProdInd": 577687,     |  -> Production indigène|
+   |--|--|
+   |    "Import": 1423325,     |   -> Importation de vin de table|
+   |--|--|
+   |    "Export": 7612,    |   -> Exportation|
+   |--|--|
+   |    "ConsomTot": 1992388,      |  -> La quantité de vin consommée par type Rouge / Blanc / les deux (Total) d'origine Suisse et importé|
+   |--|--|
+   |    "ConsomLocal": 493468,      |  -> La quantité de vin consommée par type Rouge / Blanc / les deux (Total) seulement d'origine Suisse|
+   |--|--|
+   |    "PourcentLocal": "24,8"      |  -> Le pourcentage qui répresent la quantité de vin d'origine Suisse consommée par type Rouge / Blanc / les deux (Total)|
+
+
+
+
+
+
 
    *Les informations sur le Vin destiné à la fabrication du vinaigre et sur les Stocks à la fin de l'année n'ont pas été retenues.*
 
