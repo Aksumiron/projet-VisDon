@@ -19,7 +19,16 @@ Le jeux de données était pris de la ressource opendata.swiss sur les sujet "Co
    ![Le fichier modifié et converti en .csv](https://github.com/Aksumiron/projet-VisDon/blob/master/img/consomVinCsv.png =100x20)
    *Source data/vin.csv*
 
-   ![Le fichier '.json' après la conversion](https://github.com/Aksumiron/projet-VisDon/blob/master/img/exJson.png = 100px)
+   {
+     "Years": "1996/1997",
+     "Type": "Rouge",
+     "ProdInd": 577687,
+     "Import": 1423325,
+     "Export": 7612,
+     "ConsomTot": 1992388,
+     "ConsomLocal": 493468,
+     "PourcentLocal": "24,8"
+   }
    *Source src/vinConsom.json*
    *Dans le but d'éviter les éventuelles erreurs au niveau de la conversation le fichier .csv a été transformé avec un générateur [CSVJSON](https://www.csvjson.com/csv2json)*
 
@@ -27,21 +36,15 @@ Le jeux de données était pris de la ressource opendata.swiss sur les sujet "Co
    Les données de base étaient simplifiées et re-structures dans le but d'avoir une meilleure implémentation.
    Seules les données nécessaires pour la visualisation ont été gardées :
 
-
+   |Ligne dans le Json| Les données|
+   |--|--|
    | "Years": "1996/1997", | -> L'année de production|
-   |--|--|
    |  "Type": "Rouge",     |  -> Type de vin (Rouge / Blanc / Total(répresent la somme de deux))|
-   |--|--|
    |   "ProdInd": 577687,     |  -> Production indigène|
-   |--|--|
    |    "Import": 1423325,     |   -> Importation de vin de table|
-   |--|--|
    |    "Export": 7612,    |   -> Exportation|
-   |--|--|
    |    "ConsomTot": 1992388,      |  -> La quantité de vin consommée par type Rouge / Blanc / les deux (Total) d'origine Suisse et importé|
-   |--|--|
    |    "ConsomLocal": 493468,      |  -> La quantité de vin consommée par type Rouge / Blanc / les deux (Total) seulement d'origine Suisse|
-   |--|--|
    |    "PourcentLocal": "24,8"      |  -> Le pourcentage qui répresent la quantité de vin d'origine Suisse consommée par type Rouge / Blanc / les deux (Total)|
 
 
@@ -75,14 +78,19 @@ webpack pour afficher tout sur une page web
 
 ## Le choix du type de représentation
 
-- Bar Chart
-- Line - area chart  - tendance + la quantité
-- Line chart -tendance
-- Gauge Chart
+- Bar Chart pour la production indigène pour pouvoir comparer la production de vin blanc vs. la production de vin rouge.
+- Area Chart pour démontrer la quantité de vin produit en Suisse vis-versa le vin importé ou exporté.
+- Line Chart pour visualiser la tendance de consommation sur les derniers 20 ans
+- Gauge Chart pour démontrer les pourcentages qui concernent les taux de consommation différents
 
 ## Le but de la visualisation
 
+La visualisation était réalisée dans le but uniquement informatif dans le cadre du cours DataVis.  
 Attirer attention sur le sujet de la consommation de vin.
 Examiner les tendances de la consommation pendant les dernières 20 années.
 
+
 ##  Le publique cible
+
+Les étudiants en ingénierie des médias qui cherchent à savoir les tendances générales dans le domaine du vin.
+Les amateurs du vin qui veulent s'informer sur les tendances dans le domaine du vin de 20 ans derniers.
