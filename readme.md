@@ -67,11 +67,11 @@ Le jeux de données était pris de la ressource opendata.swiss sur les sujet "Co
 
   - Consommation
 
-    20 ans sur une ligne
+    " 20 ans sur une ligne " : Le graphique montre la consommation de vin total par année.
 
-    Pourcentage de vin d'origine Suisse consommé en Suisse
-    Vin blanc d'origine Suisse consommé par rapport à tout le vin produit en Suisse
-    Vin rouge d'origine Suisse consommé par rapport à tout le vin produit en Suisse
+    Pourcentage de vin d'origine Suisse consommé en Suisse : Le graphique montre combien de vin produit un Suisse est consommé en Suisse
+    Vin blanc d'origine Suisse consommé par rapport à tout le vin produit en Suisse : Le graphique montre combien de vin blanc d'origine Suisse est consommé en Suisse
+    Vin rouge d'origine Suisse consommé par rapport à tout le vin produit en Suisse : Le graphique montre combien de vin rouge d'origine Suisse est consommé en Suisse
 
 ## Visualisation de données choisies
 
