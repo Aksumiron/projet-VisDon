@@ -1,18 +1,18 @@
 # Consommation de Vin en Suisse
 
-Le travail effectué a consisté à analyser les derniers de 20 ans (de 1997 à 2017) de la consommation de vin en Suisse.
+Le travail consistait à analyser les derniers 20 ans (de 1997 à 2017) de la consommation de vin en Suisse.
 
 ## Les données
 
-Le jeux de données était pris de la ressource opendata.swiss sur les sujet "Consummation de vin". [lien](https://opendata.swiss/fr/dataset/weinverbrauch1)
+Le jeu de données a été pris de la ressource opendata.swiss sur les sujet "Consommation de vin". [lien](https://opendata.swiss/fr/dataset/weinverbrauch1)
 
-Comme vous pouvez remarquer, il est possible de télécharger les données seulement dans le format .xls depuis le site web (ce qui a été fait).
+Il est possible de télécharger les données seulement dans le format .xls depuis le site web.
 
 ![fichier '.xls'](https://github.com/Aksumiron/projet-VisDon/blob/master/img/consomVinExel.png)
 
 _Source [data/consomVin-dataOrigin.xlsx](https://github.com/Aksumiron/projet-VisDon/blob/master/data/consomVin-dataOrigin.xlsx)_
 
-En deuxième temps il a fallu de transformer le fichier en format "Comma-separated values" .csv, pour ensuite pouvoir les transformer dans un json adapté.
+Il a fallu de convertir le fichier .xls en format "Comma-separated values" .csv, pour ensuite le transformer en json adapté.
 
 ![Le fichier modifié et converti en .csv](https://github.com/Aksumiron/projet-VisDon/blob/master/img/consomVinCsv.png)
 
@@ -33,9 +33,9 @@ _Source [data/vin.csv](https://github.com/Aksumiron/projet-VisDon/blob/master/da
 
 _Source [src/vinConsom.json](https://github.com/Aksumiron/projet-VisDon/blob/master/src/vinConsom.json)_
 
-_Dans le but d'éviter les éventuelles erreurs au niveau de la conversation le fichier .csv a été transformé avec un générateur [CSVJSON](https://www.csvjson.com/csv2json)_
+_Dans le but d'éviter les erreurs de la conversation possibles, le fichier .csv a été transformé avec un générateur [CSVJSON](https://www.csvjson.com/csv2json)_
 
-Les données de base étaient simplifiées et re-structures dans le but d'avoir une meilleure implémentation. Seules les données nécessaires pour la visualisation ont été gardées :
+Les données téléchargées ont été simplifiées et re-structures différement pour une meilleure implémentation. Seules les données nécessaires pour la visualisation ont été retenues :
 
 JSON          | Les données
 ------------- | -----------------------------------------------------------------------------------------------------------------------
@@ -54,7 +54,7 @@ _Les informations sur le Vin destiné à la fabrication du vinaigre et sur les S
 
 - Production indigène
 
-  La quantité de vin (par type : Rouge ou Blanc) produite par année depuis 1997 et jusqu'au 2017 en hectolitres (1 hl = 100 l).
+  La quantité de vin (par type : Rouge ou Blanc) produite par année depuis 1997 jusqu'au 2017 en hectolitres (1 hl = 100 l).
 
   > Les données prises :
 
@@ -66,7 +66,7 @@ _Les informations sur le Vin destiné à la fabrication du vinaigre et sur les S
 
 - Production indigène • Import • Export
 
-  La comparaison des totaux du vin produite en Suisse avec les totaux du vin importé exporté.
+  La comparaison de la quantité de vin produit en Suisse avec la quantité de vin importé et exporté.
 
   > Les données prises :
 
@@ -79,7 +79,7 @@ _Les informations sur le Vin destiné à la fabrication du vinaigre et sur les S
 
 - Consommation
 
-  **20 ans sur une ligne** : Le graphique montre la consommation de vin total par année.
+  **20 ans sur une ligne** : Le graphique montre l'évolution de la consommation de vin par année.
 
   > Les données prises :
 
@@ -88,7 +88,7 @@ _Les informations sur le Vin destiné à la fabrication du vinaigre et sur les S
   > Axes : X - Years, Y - hl
   > ```
 
-  **Pourcentage de vin d'origine Suisse consommé en Suisse** : Le graphique montre combien de vin produit un Suisse est consommé en Suisse
+  **Pourcentage de vin d'origine Suisse consommé en Suisse** : Le graphique montre combien vin produit un Suisse est également consommé en Suisse
 
   > Les données prises :
 
@@ -153,12 +153,12 @@ _Les informations sur le Vin destiné à la fabrication du vinaigre et sur les S
 
 ## Visualisation de données choisies
 
-Pour la construction des graphiques la librairie [billboard.js](https://naver.github.io/billboard.js/) a été choisie et [Webpack](https://webpack.js.org/) pour afficher tout le contenu sur une page web.
+Pour la construction des graphiques la librairie [billboard.js](https://naver.github.io/billboard.js/) a été utilisée et [Webpack](https://webpack.js.org/) pour afficher tout le contenu sur une page web.
 
 ## Le choix du type de représentation
 
-- **Bar Chart** pour la production indigène pour pouvoir comparer la production de vin blanc vs. la production de vin rouge.
-- **Area Chart** pour démontrer la quantité de vin produit en Suisse vis-versa le vin importé ou exporté.
+- **Bar Chart** pour la production indigène pour pouvoir comparer la production de vin blanc avec la production de vin rouge.
+- **Area Chart** pour démontrer la quantité de vin produit en Suisse vis-versa la quantité de vin importé et exporté.
 - **Line Chart** pour visualiser la tendance de consommation sur les derniers 20 ans
 - **Gauge Chart** pour démontrer les pourcentages qui concernent les taux de consommation différents
 
@@ -166,10 +166,10 @@ Pour la construction des graphiques la librairie [billboard.js](https://naver.gi
 
 La visualisation était réalisée dans le but uniquement informatif dans le cadre du cours DataVis.
 
-La principale idée était d'attirer attention des spectateurs sur le sujet de la consommation de vin.
+La principale idée était d'attirer attention des spectateurs sur le sujet de la consommation de vin afin de pouvoir définir quelques tendances autour de ce sujet.
 
-Les tendances de consommation sur 20 ans consécutifs de vin ont été retirées des données.
+
 
 ## Le publique cible
 
-Les étudiants en ingénierie des médias qui cherchent à savoir les tendances générales dans le domaine du vin. Les amateurs du vin qui veulent s'informer sur les tendances dans le domaine du vin de 20 ans derniers.
+Les étudiants en ingénierie des médias qui cherchent à savoir les tendances générales dans le domaine de vin. Les amateurs de vin qui veulent s'informer sur les tendances dans ce domaine de 20 ans derniers.
